@@ -14,8 +14,8 @@ pipeline {
 
       }
       steps {
-        sh '''echo \'hello maven\'
-sh \'mvn --version\''''
+         echo 'hello maven'
+          echo'mvn --version'
       }
     }
   }
